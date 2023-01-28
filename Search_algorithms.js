@@ -1,3 +1,4 @@
+// Doğrusal Arama Algoritması
 function linearSeacrh(array, target){
 	
 	for(arr of array){
@@ -16,7 +17,7 @@ function linearSeacrh(array, target){
 	}
 }
 
-
+// İkili Arama Algoritması
 function binarySeacth(array, target){
 	let left_index = 0;
 	let right_index = array.length - 1;
