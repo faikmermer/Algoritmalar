@@ -1,2 +1,2 @@
-# Arama Algoritmaları
- Javascript ile AramaAlgoritmları // Sıralama Alg
+# Arama-Sıralama Algoritmaları
+ 
