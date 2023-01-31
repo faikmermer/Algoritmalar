@@ -122,6 +122,6 @@ Küçük bir kod gezintisine çıkalım:
 
 Heap alanına ve frame kısmını dikkatle izleyerek kodu yorumlayabilirsiniz. 
 
-https://user-images.githubusercontent.com/61328016/215583000-5d6aa875-006b-4502-be0c-699cd09e9b6e.gif
+https://user-images.githubusercontent.com/61328016/215583000-5d6aa875-006b-4502-be0c-699cd09e9b6e.mp4
 
 
