@@ -1,4 +1,5 @@
 function sort(A){
+  
   let less = []
   let greater = []
   let pivot = A[Math.floor(Math.random() * A.length)]
@@ -9,8 +10,7 @@ function sort(A){
     döngü: for(let i=0; i<A.length; i++){
       if(pivot == A[i]){
         continue döngü;
-      }
-      
+      } 
       if(A[i] <= pivot){
         less.push(A[i])
       }
