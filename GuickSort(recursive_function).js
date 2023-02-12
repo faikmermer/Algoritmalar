@@ -1,13 +1,16 @@
 function sort(A){
   let less = []
   let greater = []
-  let pivot = A[0]
+  let pivot = A[Math.floor(Math.random() * A.length)]
   
   if(A.length < 2){
     return A
   }else{
-    
-    for(let i=1; i<A.length; i++){
+    döngü: for(let i=0; i<A.length; i++){
+      if(pivot == A[i]){
+        continue döngü;
+      }
+      
       if(A[i] <= pivot){
         less.push(A[i])
       }
@@ -16,8 +19,7 @@ function sort(A){
       }
     }
   }
-  return sort(less) + sort([pivot]) + sort(greater)
+  return sort(less)  + sort([pivot])  + sort(greater)
 }
 
 console.log(sort([4, 5, 1, 6, 9]))
-// output : 1 4 5 6 9
