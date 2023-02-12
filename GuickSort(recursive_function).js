@@ -22,5 +22,5 @@ function sort(A){
   return [...sort(less), ...sort([pivot]), ...sort(greater)]
 }
 
-console.log(sort([4, 5, 1, 6, 9]))
-// print output: [1, 4, 5, 6, 9]
+console.log(sort([4, 5, 1, 6, 9, 2]))
+// print output: [1, 2, 4, 5, 6, 9]
