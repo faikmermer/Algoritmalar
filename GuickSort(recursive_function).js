@@ -24,3 +24,4 @@ function sort(A){
 
 console.log(sort([4, 5, 1, 6, 9, 2]))
 // print output: [1, 2, 4, 5, 6, 9]
+
