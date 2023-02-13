@@ -2,7 +2,7 @@ function sort(A){
   
   let less = []
   let greater = []
-  let pivot = A[Math.floor(Math.random() * A.length)]
+  let pivot = A[Math.floor(Math.random() * A.length)] // or for best case A[Math.floor(A.length / 2)]
   
   if(A.length < 2){
     return A
