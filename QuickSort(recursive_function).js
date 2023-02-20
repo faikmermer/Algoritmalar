@@ -8,7 +8,7 @@ function sort(A){
     return A
   }else{
     döngü: for(let i=0; i<A.length; i++){
-      if(pivot == A[i]){
+      if(pivot == A[i]){                        
         continue döngü;
       } 
       if(A[i] <= pivot){
@@ -17,6 +17,14 @@ function sort(A){
       if(A[i] > pivot){
         greater.push(A[i])
       }
+      
+      /* Show short with multiple ?
+         (pivot == A[i]) ? continue : 
+         (A[i] <= pivot) ? less.push(A[i] :
+         (A[i] > pivot)  ? greater.push(A[i] :
+         return
+         
+       */
     }
   }
   return [...sort(less), ...sort([pivot]), ...sort(greater)]
